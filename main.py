@@ -63,3 +63,22 @@ def even_no(li):
 li5 = range(1,20)
 s6=even_no(li5)
 # print(s6)
+
+#by yashi
+def vow(s):
+  vowel = {
+      "a" : 0,
+      "e" : 0,
+      "i" : 0,
+      "o" : 0,
+      "u" : 0,
+  }
+  consonant = 0
+  for char in s:
+    #char.lowercase()
+    if char in vowel.keys():
+      vowel[char] +=1
+    else:
+      consonant +=1
+  return vowel,consonant
+vow(["apple","banana","cherry","kiwi"])
