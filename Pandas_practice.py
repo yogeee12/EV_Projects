@@ -1,4 +1,4 @@
 import pandas as pd
 
-data = pd.read_csv(r"C:/Users/Documents/Book1.csv")
+data = pd.read_csv("Book1.csv")
 print(data)
